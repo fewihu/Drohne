@@ -9,7 +9,7 @@ import java.util.logging.Logger;
 public class flightHandler extends Thread{
 
     // Addresse der Drone
-    private final String ipAddress = "192.168.10.1";
+    private final String ipAddress;
     private Inet4Address ia;
 
     // Kanal für Kommandos und deren ACKs
